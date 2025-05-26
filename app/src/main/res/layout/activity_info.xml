@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:background="@drawable/quizbk"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/startQuizButton"
+        android:layout_alignParentTop="true"
+        android:layout_marginBottom="71dp">
+
+        <TextView
+            android:id="@+id/quizIntroText"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="16dp"
+            android:background="#88000000"
+            android:lineSpacingExtra="6dp"
+            android:padding="16dp"
+            android:text="African art is more than visual expression—it’s a living record of heritage, identity, and resilience. From ancient carvings to contemporary murals, these works tell stories of community, resistance, spirituality, and the rhythms of everyday life.\n\nArtists like George Pemba capture the nuances of social struggle and joy through vivid realism. Esther Mahlangu, known for her bold Ndebele patterns, transforms tradition into global celebration. Noria Mabasa’s clay and wood sculptures bring women’s stories and ancestral voices into powerful form.\n\nThrough color, texture, and tradition, African art continues to speak across time—preserving memory and shaping history."
+            android:textColor="#101010"
+            android:textSize="18sp"
+            android:textStyle="bold" />
+    </ScrollView>
+
+    <Button
+        android:id="@+id/startQuizButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_marginTop="12dp"
+        android:layout_marginBottom="73dp"
+        android:backgroundTint="#E64A19"
+        android:text="Start Quiz"
+        android:textAllCaps="false"
+        android:textColor="#FFFFFF"
+        android:textSize="18sp"
+        android:textStyle="bold" />
+
+
+</RelativeLayout>
+
+

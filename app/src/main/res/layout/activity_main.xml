@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:scaleType="centerCrop"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/mainbk" />
+
+    <TextView
+        android:layout_width="222dp"
+        android:layout_height="131dp"
+        android:layout_marginStart="94dp"
+        android:layout_marginTop="81dp"
+        android:fontFamily="serif"
+        android:gravity="center"
+        android:text="Discover\nAfrican Art\nHistory"
+        android:textColor="#FFFFFF"
+        android:textSize="28sp"
+        android:textStyle="bold"
+        app:layout_constraintStart_toStartOf="@+id/imageView"
+        app:layout_constraintTop_toTopOf="@+id/imageView" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="338dp"
+        android:layout_height="64dp"
+        android:layout_marginStart="40dp"
+        android:layout_marginTop="252dp"
+        android:text="𝐋𝐞𝐚𝐫𝐧 𝐭𝐡𝐫𝐨𝐮𝐠𝐡 𝐯𝐢𝐬𝐮𝐚𝐥 𝐬𝐭𝐨𝐫𝐲𝐭𝐞𝐥𝐥𝐢𝐧𝐠 𝐚𝐧𝐝 𝐪𝐮𝐢𝐜𝐤 𝐪𝐮𝐢𝐳𝐳𝐞𝐬"
+        android:textColor="#FFC107"
+        android:textSize="20sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/btnStartQuiz"
+        android:layout_width="237dp"
+        android:layout_height="59dp"
+        android:layout_marginStart="79dp"
+        android:layout_marginTop="432dp"
+        android:backgroundTint="#A6431C"
+        android:text="𝐒𝐭𝐚𝐫𝐭 𝐐𝐮𝐢𝐳"
+        android:textColor="#0F0D0D"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/aboutArtButton"
+        android:layout_width="237dp"
+        android:layout_height="59dp"
+        android:layout_marginStart="79dp"
+        android:layout_marginTop="526dp"
+        android:backgroundTint="#D99C1D"
+        android:text="𝐌𝐨𝐫𝐞 𝐀𝐛𝐨𝐮𝐭 𝐀𝐫𝐭"
+        android:textColor="#0D0B0B"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

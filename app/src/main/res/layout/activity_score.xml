@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/scorebk"
+    tools:context=".ScoreActivity">
+
+    <!-- Title -->
+
+    <!-- Score value -->
+
+    <TextView
+        android:layout_width="295dp"
+        android:layout_height="44dp"
+        android:layout_marginStart="61dp"
+        android:layout_marginTop="78dp"
+        android:text="𝐘𝐨𝐮𝐫 𝐒𝐜𝐨𝐫𝐞: "
+        android:textColor="@color/black"
+        android:textSize="28sp"
+        android:textStyle="bold"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <!-- Custom feedback message -->
+
+    <!-- Button to restart quiz -->
+
+    <!-- Button to review answers -->
+
+    <Button
+        android:id="@+id/btnRestart"
+        android:layout_width="319dp"
+        android:layout_height="76dp"
+        android:layout_marginStart="52dp"
+        android:layout_marginTop="424dp"
+        android:backgroundTint="#C62828"
+        android:text="𝐓𝐫𝐲 𝐀𝐠𝐚𝐢𝐧"
+        android:textColor="@color/black"
+        android:textSize="28sp"
+        android:textStyle="bold"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/btnReview"
+        android:layout_width="319dp"
+        android:layout_height="76dp"
+        android:layout_marginStart="58dp"
+        android:layout_marginTop="536dp"
+        android:backgroundTint="#D99C1D"
+        android:text="𝐑𝐞𝐯𝐢𝐞𝐰 𝐀𝐧𝐬𝐰𝐞𝐫𝐬"
+        android:textColor="@color/black"
+        android:textSize="26sp"
+        android:textStyle="bold"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/txtScore"
+        android:layout_width="310dp"
+        android:layout_height="116dp"
+        android:layout_marginStart="61dp"
+        android:layout_marginTop="167dp"
+        android:text="0/0"
+        android:textColor="#0F0E0E"
+        android:textSize="48sp"
+        android:textStyle="bold|italic"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/txtFinalMessage"
+        android:layout_width="323dp"
+        android:layout_height="102dp"
+        android:layout_marginStart="65dp"
+        android:layout_marginTop="302dp"
+        android:text="Well Done!"
+        android:textColor="#100F0F"
+        android:textSize="30sp"
+        android:textStyle="bold|italic"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
